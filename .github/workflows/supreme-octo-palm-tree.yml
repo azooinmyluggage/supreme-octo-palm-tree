@@ -46,6 +46,9 @@ jobs:
     environment: dev
     
     steps:
+      - name: Checkout to the branch
+        uses: actions/checkout@v2
+
       - name: Azure Login
         uses: azure/login@v1
         with:
@@ -56,8 +59,8 @@ jobs:
         id: deploy-acr
         with:
           resourceGroupName: supreme-octo-palm-tree-rg
-          template: infraacrtemplate.json
-          parameters: infraacrparameters.json
+          template: infra/infraacrtemplate.json
+          parameters: infra/infraacrparameters.json
           deploymentName: Dev-Env-ACR
 
       - name: Create App
@@ -65,8 +68,8 @@ jobs:
         id: deploy-app
         with:
           resourceGroupName: supreme-octo-palm-tree-rg
-          template: infraapptemplate.json
-          parameters: infraappparameters.json
+          template: infra/infraapptemplate.json
+          parameters: infra/infraappparameters.json
           deploymentName: Dev-Env-App
                 
       - name: Deploy to containerapp
