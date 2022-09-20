@@ -8,7 +8,7 @@ on:
       [ main ]
     paths:
     - '**'
-    - '.github/workflows/supreme-octo-palm-tree-AutoDeployTrigger-9665ac8f-e48e-427a-ae89-52746d47d770.yml'
+    - '.github/workflows/supreme-octo-palm-tree.yml'
 
   # Allow mannually trigger 
   workflow_dispatch:      
@@ -56,7 +56,7 @@ jobs:
         id: deploy-acr
         with:
           resourceGroupName: supreme-octo-palm-tree-rg
-          template: ./infraacrtemplate.json
+          template: infraacrtemplate.json
           parameters: infraacrparameters.json
           deploymentName: Dev-Env-ACR
 
@@ -65,7 +65,7 @@ jobs:
         id: deploy-app
         with:
           resourceGroupName: supreme-octo-palm-tree-rg
-          template: ./infraapptemplate.json
+          template: infraapptemplate.json
           parameters: infraappparameters.json
           deploymentName: Dev-Env-App
                 
