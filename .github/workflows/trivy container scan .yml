@@ -3,17 +3,16 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Container Scan
+name: Trivy container scan
 
 on:
-  push:
-    branches: [ "main" ]
+  # push:
+  #   branches: [ "main" ]
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ "main" ]
   schedule:
-    - cron: '42 4 * * 6'
-  # Allow mannually trigger 
+    - cron: '32 11 * * 4'
   workflow_dispatch:     
 permissions:
   contents: read
@@ -29,22 +28,15 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
-          
-      - name: Build and push an image to registry
-        uses: docker/build-push-action@v2
-        with:
-          push: false
-          tags: supremeoctopalmtree.azurecr.io/supreme-octo-palm-tree:${{ github.sha }}
-          file: ./Dockerfile
-          context: ./
+
+      - name: Build an image from Dockerfile
+        run: |
+          docker build -t docker.io/my-organization/my-app:${{ github.sha }} .
 
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
         with:
-          image-ref: 'supremeoctopalmtree.azurecr.io/supreme-octo-palm-tree:${{ github.sha }}'
+          image-ref: 'docker.io/my-organization/my-app:${{ github.sha }}'
           format: 'template'
           template: '@/contrib/sarif.tpl'
           output: 'trivy-results.sarif'
