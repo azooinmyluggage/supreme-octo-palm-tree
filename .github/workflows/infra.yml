@@ -1,4 +1,4 @@
-name: Manually trigger infra deployment
+name: Infra deployment
 
 # When this action will be executed
 on:

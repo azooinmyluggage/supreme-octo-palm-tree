@@ -1,4 +1,4 @@
-name: Trigger auto deployment for supreme-octo-palm-tree
+name: Build and deploy
 
 # When this action will be executed
 on:

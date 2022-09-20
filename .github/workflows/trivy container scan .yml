@@ -3,7 +3,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: build
+name: Container Scan
 
 on:
   push:
@@ -32,18 +32,11 @@ jobs:
         
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
-
-      - name: Log in to container registry
-        uses: docker/login-action@v1
-        with:
-          registry: supremeoctopalmtree.azurecr.io
-          username: ${{ secrets.SUPREMEOCTOPALMTREE_REGISTRY_USERNAME }}
-          password: ${{ secrets.SUPREMEOCTOPALMTREE_REGISTRY_PASSWORD }}
           
       - name: Build and push an image to registry
         uses: docker/build-push-action@v2
         with:
-          push: true
+          push: false
           tags: supremeoctopalmtree.azurecr.io/supreme-octo-palm-tree:${{ github.sha }}
           file: ./Dockerfile
           context: ./
