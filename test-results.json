@@ -1,0 +1,398 @@
+{
+  "stats": {
+    "suites": 37,
+    "tests": 21,
+    "passes": 16,
+    "pending": 4,
+    "failures": 1,
+    "start": "2022-09-20T23:07:00.135Z",
+    "end": "2022-09-20T23:07:00.143Z",
+    "duration": 8
+  },
+  "tests": [
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOf() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #fetchEmployees() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #fetchVendors() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOfEmployee() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #checkBackground() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOf() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #fetchEmployees() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #fetchVendors() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOfEmployee() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #checkBackground() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #checkPayCreditStatus() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #checkValidBankAccount() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #assignDepartment() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #assignmanager() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #addNewEmployee() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #putOnHold() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOfVendor() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOfVendor() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly adds 2 args",
+      "fullTitle": "add() correctly adds 2 args",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "correctly adds 3 args",
+      "fullTitle": "add() correctly adds 3 args",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "correctly adds 4 args",
+      "fullTitle": "add() correctly adds 4 args",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n10 !== 11\n\n    at Context.<anonymous> (test\\unittest.js:172:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Expected values to be strictly equal:\n\n10 !== 11\n",
+        "generatedMessage": true,
+        "name": "AssertionError",
+        "code": "ERR_ASSERTION",
+        "actual": "10",
+        "expected": "11",
+        "operator": "strictEqual"
+      }
+    }
+  ],
+  "pending": [
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOfEmployee() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOfEmployee() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOfVendor() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOfVendor() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "failures": [
+    {
+      "title": "correctly adds 4 args",
+      "fullTitle": "add() correctly adds 4 args",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n10 !== 11\n\n    at Context.<anonymous> (test\\unittest.js:172:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Expected values to be strictly equal:\n\n10 !== 11\n",
+        "generatedMessage": true,
+        "name": "AssertionError",
+        "code": "ERR_ASSERTION",
+        "actual": "10",
+        "expected": "11",
+        "operator": "strictEqual"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOf() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #fetchEmployees() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #fetchVendors() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #checkBackground() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOf() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #fetchEmployees() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #fetchVendors() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #checkBackground() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #checkPayCreditStatus() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #checkValidBankAccount() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #assignDepartment() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #assignmanager() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #addNewEmployee() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #putOnHold() should return -1 when the value is not present",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "correctly adds 2 args",
+      "fullTitle": "add() correctly adds 2 args",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "correctly adds 3 args",
+      "fullTitle": "add() correctly adds 3 args",
+      "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
