@@ -1,0 +1,52 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "afc11291-9826-46be-b852-70349146ddf8"
+        },
+        "name": {
+            "value": "supreme-octo-palm-tree"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "environmentId": {
+            "value": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/supreme-octo-palm-tree-rg/providers/Microsoft.App/managedEnvironments/supreme-octo-palm-tree-env"
+        },
+        "containers": {
+            "value": [
+                {
+                    "name": "simple-hello-world-container",
+                    "image": "mcr.microsoft.com/azuredocs/containerapps-helloworld:latest",
+                    "command": [],
+                    "resources": {
+                        "cpu": 0.25,
+                        "memory": ".5Gi"
+                    }
+                }
+            ]
+        },
+        "registries": {
+            "value": []
+        },
+        "secrets": {
+            "value": []
+        },
+        "ingress": {
+            "value": {
+                "external": true,
+                "targetPort": 80
+            }
+        },
+        "environmentName": {
+            "value": "supreme-octo-palm-tree-env"
+        },
+        "workspaceName": {
+            "value": "workspacesupremeoctopalmtreerg8222"
+        },
+        "workspaceLocation": {
+            "value": "eastus"
+        }
+    }
+}
