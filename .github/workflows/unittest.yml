@@ -1,11 +1,16 @@
 name: Tests
-'on':
+# When this action will be executed
+on:
+  # Automatically trigger it when detected changes in repo
   push:
+    branches: 
+      [ main ]
+    paths:
+    - '**'
+    - '.github/workflows/supreme-octo-palm-tree.yml'
   pull_request:
-    types:
-      - opened
-      - synchronize
-      - reopened
+    # The branches below must be a subset of the branches above
+    branches: [ "main" ]
   schedule:
     - cron: '0 6 * * 0'
   # Allow mannually trigger 
@@ -14,18 +19,11 @@ name: Tests
 jobs:
   test:
     name: 'Mocha tests'
-    # name: 'Node.js v${{ matrix.node }}'
     runs-on: ubuntu-latest
-    # strategy:
-    #   matrix:
-    #     node:
-    #       - 14
-    #       - 16
-    #       - 18
     steps:
       - uses: actions/setup-node@v1
         with:
-          node-version: '${{ matrix.node }}'
+          node-version: '16'
       - uses: actions/checkout@v2
       - name: Install Dependencies
         run: npm install
