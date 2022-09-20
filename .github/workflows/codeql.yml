@@ -19,6 +19,8 @@ on:
     branches: [ "main" ]
   schedule:
     - cron: '27 8 * * 6'
+  # Allow mannually trigger 
+  workflow_dispatch:     
 
 jobs:
   analyze:

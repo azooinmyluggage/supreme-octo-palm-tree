@@ -46,32 +46,12 @@ jobs:
     environment: dev
     
     steps:
-      - name: Checkout to the branch
-        uses: actions/checkout@v2
 
       - name: Azure Login
         uses: azure/login@v1
         with:
           creds: ${{ secrets.SUPREMEOCTOPALMTREE_AZURE_CREDENTIALS }}
 
-      - name: Create Registry
-        uses: azure/arm-deploy@v1
-        id: deploy-acr
-        with:
-          resourceGroupName: supreme-octo-palm-tree-rg
-          template: infra/infraacrtemplate.json
-          parameters: infra/infraacrparameters.json
-          deploymentName: Dev-Env-ACR
-
-      - name: Create App
-        uses: azure/arm-deploy@v1
-        id: deploy-app
-        with:
-          resourceGroupName: supreme-octo-palm-tree-rg
-          template: infra/infraapptemplate.json
-          parameters: infra/infraappparameters.json
-          deploymentName: Dev-Env-App
-                
       - name: Deploy to containerapp
         uses: azure/CLI@v1
         with:

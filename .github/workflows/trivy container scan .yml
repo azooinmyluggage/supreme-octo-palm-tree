@@ -13,7 +13,8 @@ on:
     branches: [ "main" ]
   schedule:
     - cron: '42 4 * * 6'
-
+  # Allow mannually trigger 
+  workflow_dispatch:     
 permissions:
   contents: read
 
