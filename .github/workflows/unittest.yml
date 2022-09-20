@@ -13,15 +13,13 @@ name: Tests
 
 jobs:
   test:
-    name: 'Mocha tests'
-    # name: 'Node.js v${{ matrix.node }}'
+    # name: 'Mocha tests'
+    name: 'Node.js v${{ matrix.node }}'
     runs-on: ubuntu-latest
-    # strategy:
-    #   matrix:
-    #     node:
-    #       - 14
-    #       - 16
-    #       - 18
+    strategy:
+      matrix:
+        node:
+          - 16
     steps:
       - uses: actions/setup-node@v1
         with:
