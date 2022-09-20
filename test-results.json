@@ -5,16 +5,16 @@
     "passes": 16,
     "pending": 4,
     "failures": 1,
-    "start": "2022-09-20T23:07:00.135Z",
-    "end": "2022-09-20T23:07:00.143Z",
-    "duration": 8
+    "start": "2022-09-20T23:14:17.777Z",
+    "end": "2022-09-20T23:14:17.788Z",
+    "duration": 11
   },
   "tests": [
     {
       "title": "should return -1 when the value is not present",
       "fullTitle": "Array #indexOf() should return -1 when the value is not present",
       "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -75,7 +75,7 @@
       "title": "should return -1 when the value is not present",
       "fullTitle": "Array #fetchVendors() should return -1 when the value is not present",
       "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -127,7 +127,7 @@
       "title": "should return -1 when the value is not present",
       "fullTitle": "Array #assignmanager() should return -1 when the value is not present",
       "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -254,7 +254,7 @@
       "title": "should return -1 when the value is not present",
       "fullTitle": "Array #indexOf() should return -1 when the value is not present",
       "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -308,7 +308,7 @@
       "title": "should return -1 when the value is not present",
       "fullTitle": "Array #fetchVendors() should return -1 when the value is not present",
       "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -353,7 +353,7 @@
       "title": "should return -1 when the value is not present",
       "fullTitle": "Array #assignmanager() should return -1 when the value is not present",
       "file": "C:\\Users\\atulmal\\Documents\\Code\\supreme-octo-palm-tree\\test\\unittest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
