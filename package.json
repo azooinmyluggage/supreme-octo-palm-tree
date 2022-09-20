@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha --reporter mochawesome --require mochawesome/register"
+    "test": "mocha"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -13,7 +13,6 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "mocha": "^10.0.0",
-    "mochawesome": "^7.1.3",
     "morgan": "~1.9.1"
   }
 }
