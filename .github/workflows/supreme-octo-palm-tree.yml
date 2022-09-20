@@ -56,8 +56,8 @@ jobs:
         id: deploy-acr
         with:
           resourceGroupName: supreme-octo-palm-tree-rg
-          template: ./infra-acr-template.json
-          parameters: infra-acr-parameters.json
+          template: ./infraacrtemplate.json
+          parameters: infraacrparameters.json
           deploymentName: Dev-Env-ACR
 
       - name: Create App
@@ -65,8 +65,8 @@ jobs:
         id: deploy-app
         with:
           resourceGroupName: supreme-octo-palm-tree-rg
-          template: ./infra-app-template.json
-          parameters: infra-app-parameters.json
+          template: ./infraapptemplate.json
+          parameters: infraappparameters.json
           deploymentName: Dev-Env-App
                 
       - name: Deploy to containerapp
