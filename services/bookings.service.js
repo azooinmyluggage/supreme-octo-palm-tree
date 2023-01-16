@@ -46,6 +46,7 @@ async function getBookings()
     booking.description = "Generate description";
     booking.date = getDate(i);
     booking.time = getTime();
+    booking.duration = "30 mins";
 
     booking.user = user;
     user.id = i;
