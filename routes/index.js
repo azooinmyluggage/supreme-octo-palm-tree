@@ -8,8 +8,3 @@ router.get('/', function(req, res, next) {
 
 module.exports = router;
 
-// Convert Fahrenheit to Celsius
-function FarenheitToCelcius(f) {
-    return (f - 32) * 5 / 9;
-}
-
