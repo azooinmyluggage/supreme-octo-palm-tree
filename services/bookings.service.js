@@ -1,44 +1,13 @@
 const { all } = require("express/lib/application");
 
 async function getMultiple(){
-  var result;
-  try {
-    const response = await Promise.all([
-      getBookings()
-    ]);
-  result = response;
-  } catch(error) {
-    console.error('Unable to get bookings:', error);
-  }
-  console.log(result);
-  return result;
-}
-
-async function create(booking){
-  message = 'Booking created';
-  return {message};
-}
-
-async function update(id, booking){
-  message = 'Booking updated';
-  return {message};
-}
-
-async function remove(id){
-  
-  message = 'Booking deleted';
-  return {message};
-}
-
-async function getBookings()
-{
   var bookings = [];
  
   for(var i=0; i<5; i++)
   {
     var booking = {};
-    booking.name = "Generate name"
-    booking.description = "Generate description";
+    booking.name = "Troubleshooting antenna issues";
+    booking.description = "Troubleshooting antenna issues on the comms on rig 1";
     booking.date = getDate(i);
     booking.time = getTime();
     booking.duration = "30 mins";
@@ -61,6 +30,55 @@ async function getBookings()
   }
   console.log(bookings);
   return bookings;
+}
+
+async function create(booking){
+  message = 'Booking created';
+  return {message};
+}
+
+async function update(id, booking){
+  message = 'Booking updated';
+  return {message};
+}
+
+async function remove(id){
+  
+  message = 'Booking deleted';
+  return {message};
+}
+
+async function getBookings()
+{
+  // var bookings = [];
+ 
+  // for(var i=0; i<5; i++)
+  // {
+  //   var booking = {};
+  //   booking.name = "Generate name"
+  //   booking.description = "Generate description";
+  //   booking.date = getDate(i);
+  //   booking.time = getTime();
+  //   booking.duration = "30 mins";
+  //   booking.userId = i;
+  //   try {
+  //     const response = await Promise.all([
+  //       generateName('female'),
+  //       generateName('male')
+  //     ]);
+  //   const [userName, userManager] = response;
+  //   booking.userName = userName;
+  //   booking.userManager = userManager;
+  //   let emailSuffix = '@contoso.com';
+  //   let email = userName.replace(/\s/g, "") + emailSuffix; 
+  //   booking.userEmail = email;
+  //   } catch(error) {
+  //     console.error('Unable to generate name:', error);
+  //   }
+  //   bookings.push(booking);
+  // }
+  // console.log(bookings);
+  // return bookings;
  }
 
  async function generateName(gender) {
