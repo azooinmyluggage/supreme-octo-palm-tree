@@ -6,14 +6,12 @@ async function getMultiple(){
     const response = await Promise.all([
       getBookings()
     ]);
-  const [bookings] = response;
-  result = bookings;
+  result = response;
   } catch(error) {
     console.error('Unable to get bookings:', error);
   }
-
   console.log(result);
-  return {result};
+  return result;
 }
 
 async function create(booking){
@@ -34,39 +32,33 @@ async function remove(id){
 
 async function getBookings()
 {
-  var allBookings = {};
-  var bookings = []
-  allBookings.bookings = bookings;
-  
+  var bookings = [];
+ 
   for(var i=0; i<5; i++)
   {
     var booking = {};
-    var user = {};
     booking.name = "Generate name"
     booking.description = "Generate description";
     booking.date = getDate(i);
     booking.time = getTime();
     booking.duration = "30 mins";
-
-    booking.user = user;
-    user.id = i;
+    booking.userId = i;
     try {
       const response = await Promise.all([
         generateName('female'),
         generateName('male')
       ]);
     const [userName, userManager] = response;
-    user.name = userName;
-    user.manager = userManager;
+    booking.userName = userName;
+    booking.userManager = userManager;
     let emailSuffix = '@contoso.com';
     let email = userName.replace(/\s/g, "") + emailSuffix; 
-    user.email = email;
+    booking.userEmail = email;
     } catch(error) {
       console.error('Unable to generate name:', error);
     }
     bookings.push(booking);
   }
-
   console.log(bookings);
   return bookings;
  }
@@ -97,15 +89,6 @@ function getDate(num)
   var mm = String(targetDate.getMonth() + 1).padStart(2, '0'); //January is 0!
   var yyyy = targetDate.getFullYear();
   today = mm + '/' + dd + '/' + yyyy;
-
-// document.write(today);
-//   var targetDate = new Date();
-//   targetDate.setDate(targetDate.getDate() + num);
-//   var dd = targetDate.getDate();
-//   var mm = targetDate.getMonth() + 1; // 0 is January, so we must add 1
-//   var yyyy = targetDate.getFullYear();
-
-//   var dateString = dd + "/" + mm + "/" + yyyy;
   return today;
 }
 
@@ -124,8 +107,6 @@ function getTime()
   var timeString = hh + ":" + mm;
   return timeString
 }
-
-
 
 function fetchNames(nameType) {
   var allData = fetchData(`https://www.randomlists.com/data/names-${nameType}.json`);
