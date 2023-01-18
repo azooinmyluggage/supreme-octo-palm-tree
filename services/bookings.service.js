@@ -6,7 +6,7 @@ const gen = Gen('content.txt')
 async function getMultiple(){
   var bookings = [];
  
-  for(var i=0; i<5; i++)
+  for(var i=0; i<6; i++)
   {
     var booking = {};
     booking.name = gen.run();
