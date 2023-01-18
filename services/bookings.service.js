@@ -1,4 +1,7 @@
 const { all } = require("express/lib/application");
+// import 'Gen' from 'sentence-generator'
+const Gen = require('sentence-generator')
+const gen = Gen('content.txt')
 
 async function getMultiple(){
   var bookings = [];
@@ -6,8 +9,8 @@ async function getMultiple(){
   for(var i=0; i<5; i++)
   {
     var booking = {};
-    booking.name = "Troubleshooting antenna issues";
-    booking.description = "Troubleshooting antenna issues on the comms on rig 1";
+    booking.name = gen.run();
+    booking.description = gen.take(3)
     booking.date = getDate(i);
     booking.time = getTime();
     booking.duration = "30 mins";
@@ -47,39 +50,6 @@ async function remove(id){
   message = 'Booking deleted';
   return {message};
 }
-
-async function getBookings()
-{
-  // var bookings = [];
- 
-  // for(var i=0; i<5; i++)
-  // {
-  //   var booking = {};
-  //   booking.name = "Generate name"
-  //   booking.description = "Generate description";
-  //   booking.date = getDate(i);
-  //   booking.time = getTime();
-  //   booking.duration = "30 mins";
-  //   booking.userId = i;
-  //   try {
-  //     const response = await Promise.all([
-  //       generateName('female'),
-  //       generateName('male')
-  //     ]);
-  //   const [userName, userManager] = response;
-  //   booking.userName = userName;
-  //   booking.userManager = userManager;
-  //   let emailSuffix = '@contoso.com';
-  //   let email = userName.replace(/\s/g, "") + emailSuffix; 
-  //   booking.userEmail = email;
-  //   } catch(error) {
-  //     console.error('Unable to generate name:', error);
-  //   }
-  //   bookings.push(booking);
-  // }
-  // console.log(bookings);
-  // return bookings;
- }
 
  async function generateName(gender) {
   try {
