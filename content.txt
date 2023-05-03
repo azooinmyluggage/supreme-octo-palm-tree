@@ -18,3 +18,4 @@ Promotion not applied
 Incorrect product delivered
 Payment error occurred
 Technical assistance needed
+Payment method is not setup
