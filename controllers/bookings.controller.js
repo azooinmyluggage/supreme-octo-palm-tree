@@ -13,7 +13,7 @@ async function create(req, res, next) {
   try {
     res.json(await bookings.create(req.body));
   } catch (err) {
-    console.error(`Error while creating booking`, err.message);
+    console.error(`Error while creating a booking`, err.message);
     next(err);
   }
 }
