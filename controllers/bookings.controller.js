@@ -22,7 +22,7 @@ async function update(req, res, next) {
   try {
     res.json(await bookings.update(req.params.id, req.body));
   } catch (err) {
-    console.error(`Error while updating booking`, err.message);
+    console.error(`Error while updating a booking`, err.message);
     next(err);
   }
 }
@@ -31,7 +31,7 @@ async function remove(req, res, next) {
   try {
     res.json(await bookings.remove(req.params.id));
   } catch (err) {
-    console.error(`Error while deleting booking`, err.message);
+    console.error(`Error while deleting a booking`, err.message);
     next(err);
   }
 }
